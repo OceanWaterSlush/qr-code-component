@@ -1,9 +1,18 @@
 .card {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 
     width: 20%;
     min-width: 200px;
 
-    border: 1px solid black;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    background-color: hsl(0, 0%, 100%);
+}
+
+.description {
+    margin-bottom: 20px;
 }
