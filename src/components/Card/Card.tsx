@@ -4,7 +4,7 @@ import './Card.css';
 const Card = () => {
     return (
         <div className='card'>
-            <QRCode />
+            <QRCode pathToQRCodeImage='src/assets/image-qr-code.png' />
             <p>Improve your front-end skills by building projets</p>
             <p>
                 Scan the QR code to visit Frontend Mentor and take your coding
