@@ -5,7 +5,7 @@ const Card = () => {
     return (
         <div className='card'>
             <QRCode pathToQRCodeImage='src/assets/image-qr-code.png' />
-            <p role='heading' aria-level={1}>
+            <p className={'title'} role='heading' aria-level={1}>
                 Improve your front-end skills by building projets
             </p>
             <p className={'description'}>
