@@ -1,9 +1,5 @@
-body {
-    font-family: 'Outfit', sans-serif;
-
-    background-color: hsl(212, 45%, 89%);
-}
-
-p {
-    all: unset;
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

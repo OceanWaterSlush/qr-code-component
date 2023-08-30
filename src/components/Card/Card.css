@@ -1,10 +1,16 @@
+p {
+    all: unset;
+
+    font-size: 15px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     width: 20%;
-    min-width: 200px;
+    min-width: 285px;
 
     padding: 10px;
 
@@ -14,11 +20,22 @@
 }
 
 .title {
+    padding: 0px 10px;
+
+    text-align: center;
+
     font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
 }
 
 .description {
+    padding: 0px 10px;
+
     margin-bottom: 20px;
 
+    text-align: center;
+
     font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
