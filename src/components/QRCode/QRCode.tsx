@@ -1,13 +1,11 @@
+import './QRCode.css';
+
 type QRCodeProps = {
     pathToQRCodeImage: string;
 };
 
 const QRCode = ({ pathToQRCodeImage }: QRCodeProps) => {
-    return (
-        <div>
-            <img src={pathToQRCodeImage} alt='QR Code' />
-        </div>
-    );
+    return <img className='qrCode' src={pathToQRCodeImage} alt='QR Code' />;
 };
 
 export default QRCode;
