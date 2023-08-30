@@ -1,4 +1,4 @@
-import './QRCode.css';
+import './QRCode.scss';
 
 type QRCodeProps = {
     pathToQRCodeImage: string;

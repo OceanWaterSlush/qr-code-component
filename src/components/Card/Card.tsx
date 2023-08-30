@@ -1,5 +1,5 @@
 import QRCode from '../QRCode/QRCode';
-import './Card.css';
+import './Card.scss';
 
 const Card = () => {
     return (
