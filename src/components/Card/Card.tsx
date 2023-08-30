@@ -4,7 +4,7 @@ import './Card.scss';
 const Card = () => {
     return (
         <div className='card'>
-            <QRCode pathToQRCodeImage='src/assets/image-qr-code.png' />
+            <QRCode pathToQRCodeImage='/assets/image-qr-code.png' />
             <p className={'title'} role='heading' aria-level={1}>
                 Improve your front-end skills by building projects
             </p>
